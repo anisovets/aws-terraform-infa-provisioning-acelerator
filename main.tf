@@ -7,3 +7,7 @@ terraform {
     encrypt = true
   }
 }
+
+module "my_ecr" {
+  source = "./modules/ecr"
+}
