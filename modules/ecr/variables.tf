@@ -15,3 +15,9 @@ variable "scan_on_push" {
   type        = bool
   default     = true
 }
+
+variable "region" {
+    description = "The AWS Region"
+    type = string
+    default = "us-east-1"
+}
